@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <!-- CABECERA-->
+    <head>
+      <style>
+        div.redTable {
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 40%;
+  height: 30%;
+  text-align: center;
+}
+.divTable.redTable .divTableCell, .divTable.redTable .divTableHead {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+.divTable.redTable .divTableBody .divTableCell {
+  font-size: 13px;
+}
+.divTable.redTable .divTableRow:nth-child(even) {
+  background: #F5C8BF;
+}
+.divTable.redTable .divTableHeading {
+  background: #A40808;
+}
+.divTable.redTable .divTableHeading .divTableHead {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #A40808;
+}
+.divTable.redTable .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+.redTable .tableFootStyle {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #A40808;
+}
+.redTable .tableFootStyle {
+  font-size: 13px;
+}
+.redTable .tableFootStyle .links {
+	 text-align: right;
+}
+.redTable .tableFootStyle .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #A40808;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.redTable.outerTableFooter {
+  border-top: none;
+}
+.redTable.outerTableFooter .tableFootStyle {
+  padding: 3px 5px; 
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+      </style>
+
+    </head>
+    
+    <!-- CUERPO-->
+    <body>
+      <!--TABLA-->
+<table>
+  <tr>
+    <td>Nombre</td>
+    <td>Apellido</td>
+    <td>Direccion</td>
+    <td>Edad</td>
+    <td>Sexo</td>
+  </tr>
+  <tr>
+    <td>Manolo</td>
+    <td>Escobar</td>
+    <td>c/feria 23</td>
+    <td>67</td>
+    <td>Masculino</td>
+  </tr>
+  <tr>
+    <td>Belen</td>
+    <td>Esteban</td>
+    <td>c/orcasitas 35</td>
+    <td>59</td>
+    <td>No especificado</td>
+  </tr>
+  <tr>
+    <td>David</td>
+    <td>Villamizar</td>
+    <td>c/colombia 17</td>
+    <td>14</td>
+    <td>Macho Alfa</td>
+  </tr>
+</table>
+
+<!--LISTA ORDENADA-->
+<ol id="asignaturas">
+  <li>AppWeb</li>
+  <li>SOM</li>
+  <li>MMEQ</li>
+  <li>English</li>
+
+  <!--LISTA DESORDENADA-->
+  <ul id="asignaturas">
+    <li>AppWeb</li>
+    <li>SOM</li>
+    <li>MMEQ</li>
+    <li>English</li>
+</ul>
+    
+
+<!--IMAGEN-->
+<img src="https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/temas/cerdo-vietnamita.jpg"
+alt="Error de Carga"
+height="150"
+width="150"/>
+ 
+<!--ENLACE-->
+
+<br>
+<a href="https://www.youtube.com/">  
+YOUTUBE </a>
+
+<!--TABLA CSS-->
+
+<div class="divTable redTable">
+  <div class="divTableHeading">
+  <div class="divTableRow">
+  <div class="divTableHead">Ejemplo1</div>
+  <div class="divTableHead">Ejemplo2</div>
+  </div>
+  </div>
+  <div class="divTableBody">
+  <div class="divTableRow">
+  <div class="divTableCell">cell1_1</div><div class="divTableCell">cell2_1</div></div>
+  </div>
+  </div>
+  <div class="redTable outerTableFooter"><div class="tableFootStyle"><div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div></div></div>
+  
+
+</body>          
+
+
+</html>
