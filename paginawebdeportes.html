@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <title>Tienda de Deportes</title>
+    <style>
+        body {
+            color: white;
+        }
+    </style>
+    <style>
+        body {
+            background-image: url('https://fundaciondelcorazon.com/images/stories/iStock-949190756.jpg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen */
+            background-size: cover; /* Ajusta la imagen al tamaño de la ventana del navegador */
+            background-attachment: fixed; /* Hace que el fondo sea fijo mientras se desplaza la página */
+        }
+    </style>
+<style>
+    .texto-superpuesto {
+        background: rgba(0, 0, 0, 0.5); /* El último valor (0.5) controla la opacidad de la superposición */
+        color: white; /* Cambia el color del texto según tus preferencias */
+        padding: 10px; /* Añade espaciado para mejorar la legibilidad */
+    }
+</style>
+<style>
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+        text-align: center; /* Centra el contenido horizontalmente */
+    }
+
+    .navbar-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex; /* Convierte la lista en un contenedor flexible */
+        justify-content: center; /* Centra horizontalmente los elementos */
+    }
+
+    .navbar li {
+        display: inline-block; /* Muestra los elementos en línea */
+    }
+
+    .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover {
+        background-color: #555;
+    }
+</style>
+
+</head>
+<body>
+    <header>
+        <h1 class="texto-superpuesto">Bienvenido a la Tienda de Deportes</h1>
+        <nav>
+            <ul class="texto-superpuesto">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id class="texto-superpuesto"="productos">
+        <article class="producto">
+            <img src="https://www.estilomma.com/images/productos/saco-de-boxeo-venum-origins-negro--blanco-gancho-incluido-1-4506.jpeg" width="150" height="150" alt="Producto 1">
+            <h2>Producto 1</h2>
+            <p>Descripción del producto 1.</p>
+            <p>Precio: $50.00</p>
+            <button>Agregar al carrito</button>
+        </article>
+
+        <article class="producto">
+            <img src="https://es.venum.com/cdn/shop/products/f_252Fd_252Fb_252F7_252Ffdb79fa02992c043cf17d0cbb836a72cff4c7e43_BG_DRAGONSFIGHT_BLACK_GOLD_01.jpg?v=1678326216" width="150" height="150" alt="Producto 2">
+            <h2>Producto 2</h2>
+            <p>Descripción del producto 2.</p>
+            <p>Precio: $60.00</p>
+            <button>Agregar al carrito</button>
+        </article>
+
+        <!-- Agrega más productos aquí -->
+
+    </section>
+
+    <section id class="texto-superpuesto"="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul>
+            <!-- Los productos seleccionados se agregarán aquí -->
+        </ul>
+        <p>Total: $0.00</p>
+        <button>Realizar Compra</button>
+    </section>
+
+    <footer class="texto-superpuesto">
+        <p>&copy; 2023 Tienda de Deportes</p>
+    </footer>
+</body>
+</html>
